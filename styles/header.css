@@ -1,0 +1,75 @@
+header#primary {
+    text-align: center;
+    padding: 120px 163px ;
+  }
+  
+  .user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 56px;
+  }
+  
+  .user img:first-child {
+    border-radius: 50%; 
+    border: 1px solid var(--principal-color-red);
+    width: 100px;
+    height: 100px;
+    margin-right: -40px;
+
+  }
+  
+  .user img:last-child {
+    width: 40px;
+    height: 40px;
+   margin-top: 80px; 
+  }
+    
+  
+  .text .font-size-56px {
+    display: block;
+    margin-top: 8px;
+  }
+  
+  .text p.text-sm {
+    margin-top: 20px;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  nav#tags {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  
+  nav#tags button {
+    background: var(--base-gray-300);
+    border: none;
+    padding: 8px 16px;
+    margin-right: 8px;
+    border-radius: 100px;
+  }
+  
+  nav#tags button a {
+    font: var(--text-md);
+    color: var(--base-gray-500);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  nav#tags button a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .CaretDoubleDown {
+    margin-top: 94px;
+    width: 32px;
+    height: 32px;
+  }
+

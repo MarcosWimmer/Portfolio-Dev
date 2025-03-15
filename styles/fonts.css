@@ -49,6 +49,7 @@
 h1 {
   font: var(--subtitle);
   color: var(--base-gray-500);
+  margin-bottom: 8px;
 } 
 
 h2 {
