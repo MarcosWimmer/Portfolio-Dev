@@ -1,0 +1,32 @@
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#primary {
+    background-image: url("../assets/images/Background_Intro.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main {
+    background-color: var(--base-gray-200);
+}
+a {
+    text-decoration: none;
+}
+#services {
+    background-color: var(--base-gray-100);
+}
+
+#contact {
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+

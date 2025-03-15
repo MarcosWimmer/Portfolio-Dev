@@ -1,0 +1,37 @@
+main {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    padding: 72px 120px 144px 120px;
+    align-items: center; 
+}
+
+main h2 {
+    margin-top: 8px;
+    margin-bottom: 52px;
+}
+
+
+.card {
+    width: auto;
+    max-width: 330px;
+    height: auto;
+    max-height: 280px;
+    background-color: var(--base-gray-300);
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 24px;
+}
+
+
+.card img {
+    border-radius: 8px;
+}
+
+

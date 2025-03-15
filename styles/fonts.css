@@ -1,4 +1,5 @@
 * {
+  max-width: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -28,4 +29,55 @@
   --subtitle: 400 20px/120% var(--font-family-inconsolata);
   --text-md: 400 16px/140% var(--font-family-mavenpro);
   --text-sm: 400 14px/140% var(--font-family-mavenpro);
+}
+
+.font-size-56px {
+  font: var(--title-lg);
+  color: var(--base-gray-600);
+}
+
+.title-sm {
+  font: var(--title-sm);
+  color: var(--base-gray-600);
+}
+
+.text-sm {
+  font: var(--text-sm);
+  color: var(--base-gray-400);
+}
+
+h1 {
+  font: var(--subtitle);
+  color: var(--base-gray-500);
+} 
+
+h2 {
+  font: var(--title-md);
+  color: var(--base-gray-600);
+  padding: 8px 0 8px 0;
+  text-align: center;
+}
+
+#contact p {
+  font: var(--text-md);
+  color: var(--base-gray-500);
+}
+
+h4 {
+  font: var(--subtitle);
+  color: var(--principal-color-red);
+  text-align: center;
+}
+
+#contact h4 {
+  font: var(--subtitle);
+  color: var(--principal-color-purple);
+}
+
+.color-red {
+  color: var(--principal-color-red);
+}
+
+p {
+  font: var(--text-sm);
 }

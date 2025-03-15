@@ -2,7 +2,7 @@
     background-image: url(../assets/images/Background_Contacts.png);
     padding: 128px 120px 200px 128px;
     text-align: center;
-    
+    flex-wrap: wrap;
 }
 
 #contact header h4 {
@@ -11,15 +11,7 @@
     margin-bottom: 10px;
 }
 
-#contact header h2 {
-    font-size: 1.8em;
-    margin-bottom: 15px;
-}
 
-#contact header p {
-    font-size: 1.1em;
-    margin-bottom: 30px;
-}
 
 .contact-list {
     margin-top: 48px;
