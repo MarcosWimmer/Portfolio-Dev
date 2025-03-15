@@ -31,6 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
+Desafio de criação de um portfólio dev onde podemos demonstrar os conhecimentos adquiridos durante as últimas aulas dentro da formação FullStack.
 
 ## 🔖 Layout
 
