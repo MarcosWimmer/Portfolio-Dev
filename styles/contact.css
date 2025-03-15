@@ -32,7 +32,6 @@
 .contact-list a {
     display: flex;
     align-items: center;
-    border: 2px solid transparent;
     background-color: var(--base-gray-300);
     width: 400px;
     padding: 10px 20px;
