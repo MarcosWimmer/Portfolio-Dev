@@ -1,0 +1,48 @@
+#services {
+    padding: 88px 120px 88px 120px;
+}
+
+#services header h2 {
+    margin-bottom: 56px;
+    text-align: center;
+}
+
+#services header h4 {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+
+.services-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background: var(--base-gray-100);
+    border: 2px solid var(--base-gray-200);
+    border-radius: 10px;
+    box-shadow: none;
+    width: 280px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 1px 2px 3px 4px var(--base-gray-500);
+}
+
+.title-sm {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+
+
+
+
